@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You for Your Purchase | Natty Lean</title>
+  
+  <!-- Meta Tags -->
+  <meta name="description" content="Thank you for your Natty Lean purchase. Your order has been confirmed and will be shipped soon. Start your weight loss journey today!">
+  <meta name="keywords" content="order confirmation, natty lean, weight loss, purchase success">
+  <meta name="author" content="Natty Lean">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon.ico">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nattylean.com/order-success">
+  <meta property="og:title" content="Thank You for Your Purchase | Natty Lean">
+  <meta property="og:description" content="Your Natty Lean order has been confirmed. Start your weight loss journey today!">
+  <meta property="og:image" content="assets/img/logo.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://nattylean.com/order-success">
+  <meta property="twitter:title" content="Thank You for Your Purchase | Natty Lean">
+  <meta property="twitter:description" content="Your Natty Lean order has been confirmed. Start your weight loss journey today!">
+  <meta property="twitter:image" content="assets/img/logo.png">
+  
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm fixed-top" style="min-height:60px;">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#"><img src="assets/img/logo.png" alt="Natty Lean Logo" style="height:38px;"><span class="fw-bold text-success" style="font-size:1.5rem;letter-spacing:0.5px;">NATTY LEAN</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav mb-2 mb-lg-0 gap-3">
+            <li class="nav-item"><a class="nav-link text-success fw-semibold" href="#bonus">Bônus Grátis</a></li>
+            <li class="nav-item"><a class="nav-link text-success fw-semibold" href="#about">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link text-success fw-semibold" href="#ingredients">Ingredientes</a></li>
+            <li class="nav-item"><a class="nav-link text-success fw-semibold" href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <a href="#offers" class="btn btn-warning fw-bold ms-2 px-3 py-1" style="font-size:1rem;">Comprar Agora</a>
+      </div>
+    </nav>
+  </header>
+
+  <div style="height:80px;"></div> <!-- Espaço para navbar fixa -->
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <!-- Thank You Section -->
+    <section class="text-center mb-4" data-anima="bottom">
+      <h1 class="display-5">Thank You, <span id="nomeCliente">[Customer Name]</span> &amp; Congratulations!</h1>
+      <p class="lead">Your purchase was successful, and we're thrilled to have you as a Natty Lean customer!</p>
+    </section>
+    
+    <!-- Order Details Section -->
+    <section class="row align-items-center mb-4" data-anima="left">
+      <div class="col-md-4 text-center">
+        <img id="imagemProduto" src="assets/img/img-6-bottles.webp" alt="Product purchased" class="img-fluid" style="max-height: 220px;">
+      </div>
+      <div class="col-md-8">
+        <h2 class="h5">Order Details</h2>
+        <ul class="list-group mb-3">
+          <li class="list-group-item">Product: <span id="produtoComprado">[Product]</span></li>
+          <li class="list-group-item">Quantity: <span id="quantidadePotes">[Quantity]</span></li>
+          <li class="list-group-item">Total Value: <span id="valorTotal">[Value]</span></li>
+        </ul>
+        <h3 class="h6">Customer Information</h3>
+        <ul class="list-group">
+          <li class="list-group-item">Name: <span id="clienteNome">[Name]</span></li>
+          <li class="list-group-item">E-mail: <span id="clienteEmail">[Email]</span></li>
+          <li class="list-group-item">Phone: <span id="clienteTelefone">[Phone]</span></li>
+        </ul>
+      </div>
+    </section>
+    
+    <!-- Bonus Section -->
+    <section class="mb-4" data-anima="right">
+      <h2 class="h5">Free Bonus Gift</h2>
+      <div class="row align-items-center">
+        <div class="col-md-3 text-center">
+          <img id="imagemBonus" src="assets/img/bonus1.webp" alt="Bonus" class="img-fluid" style="max-height: 120px;">
+        </div>
+        <div class="col-md-9">
+          <p id="textoBonus">For your purchase of <span id="bonusQuantidade">[Quantity]</span> bottles, you'll receive the ebook <span id="bonusNome">[Ebook Name]</span>. ENJOY!</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Shipping Information Section -->
+    <section class="mb-4" data-anima="bottom">
+      <h2 class="h6">Shipping Information</h2>
+      <ul>
+        <li>U.S. Shipping: Please allow 3-5 business days for delivery.</li>
+        <li>International Shipping: Allow 7-14 business days for delivery.</li>
+      </ul>
+      <p>Your credit card statement will reflect a charge from H&W, the official retailer for products on this site.</p>
+      <p>We aim to process and ship every order within 48 hours, and you'll receive a shipment confirmation email from H&W to <span id="clienteEmail">[Email]</span> once your order is on its way.</p>
+      <p>If you have any questions or need assistance with your order, please reach out to us at:</p>
+      <p>Email: <a href="mailto:support@fitnatty.com">support@fitnatty.com</a></p>
+      <p class="small">Tip: To ensure you receive all updates and notifications about your order, please add our email to your whitelist or contacts!</p>
+    </section>
+  </main>
+
+  <!-- Scientific References Section -->
+  <section class="container my-5">
+    <div class="scientific-references mt-4" style="font-size:0.95rem; color:#888;">
+      <strong>Referências científicas:</strong><br>
+      4. "The Role of Magnesium in Metabolism and Weight Reduction" – DiNicolantonio JJ, O'Keefe JH (Open Heart, 2018)<br>
+      5. "Calcium Intake and Fat Loss: Mechanisms and Evidence" – Zemel MB (International Journal of Obesity, 2004)<br>
+      6. "Sodium's Impact on Weight Regulation and Water Retention" – He FJ, MacGregor GA (Journal of Human Nutrition and Dietetics, 2018)<br>
+      7. "The Appetite-Suppressing Effects of Ketosis: Beta-Hydroxybutyrate's Role" – Gibson AA, et al. (Appetite, 2015)<br>
+      8. "Ketone Bodies as a Fuel Source: Implications for Weight Management" – Volek JS, Phinney SD (Journal of Nutrition and Metabolism, 2012)<br>
+      9. "Intermittent Fasting and Ketosis: Effects on Fat Loss" – Mattson MP, et al. (New England Journal of Medicine, 2019)<br>
+      10. "Low-Carb Diets and Weight Loss: A Comprehensive Review" – Brehm BJ, et al. (Journal of Clinical Endocrinology & Metabolism, 2003)<br>
+      11. "Magnesium and Its Role in Metabolism During Weight Loss" – Barbagallo M, Dominguez LJ (Current Obesity Reports, 2010)<br>
+      12. "Beta-Hydroxybutyrate and Fat Burning: How It Enhances Weight Loss" – Newport MT, et al. (Nutrition Research, 2015)<br>
+      13. "The Impact of Ketones on Physical Performance and Weight Reduction" – Evans M, et al. (Journal of Physiology, 2017)<br>
+      14. "Anti-Inflammatory Effects of Beta-Hydroxybutyrate and Their Role in Fat Loss" – Youm YH, et al. (Nature Reviews, 2015)<br>
+      15. "The Effects of Sodium on Hydration and Weight Control" – Houston M (Nutrition Research Reviews, 2010)<br>
+      16. "Gut Microbiome Changes During Ketogenic Diets and Weight Loss" – <span style="color:#1793b2;">colocar nas referencias</span>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" title="Back to Top">
+    <i class="fas fa-arrow-up">↑</i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="container-fluid bg-light py-4 mt-5" id="rodape">
+    <div class="container text-center small">
+      <p>The content of this site and the product for sale are based on the author's opinion and are provided as is. Always consult your healthcare professional before using any protocol presented on this site.</p>
+      <p>&copy; Natty Lean Research 2025. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/javascript.js"></script>
+</body>
+</html>
